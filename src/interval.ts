@@ -1,5 +1,5 @@
 setInterval(async () => {
     await Bun.$`bun run src/index.ts`;
-}, 5000)
+}, 1000 * 60 * 5); // 5 minutes
 
 await Bun.$`bun run src/index.ts`

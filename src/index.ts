@@ -169,6 +169,18 @@ for (const key in walked.routes) {
 }
 
 
+for (const key in fixedEndpoints.endpoints) {
+    if (!walked.endpoints[key]) {
+        delete fixedEndpoints.endpoints[key];
+    }
+}
+
+for (const key in fixedEndpoints.routes) {
+    if (!walked.routes[key]) {
+        delete fixedEndpoints.routes[key];
+    }
+}
+
 if (endpointsDiff || routesDiff) {
     const endpointDiffEmbed = {
         type: "rich",
@@ -217,9 +229,9 @@ if (endpointsDiff || routesDiff) {
 
 await Bun.write("endpoints.json", JSON.stringify(fixedEndpoints, null, 4));
 
-await Bun.$`git add endpoints.json`;
-await Bun.$`git commit -m "Updated endpoints.json"`;
-await Bun.$`git push`;
+await Bun.$`git add endpoints.json`.catch(() => console.log("Failed to add endpoints.json."));
+await Bun.$`git commit -m "Updated endpoints.json"`.catch(() => console.log("Failed to commit changes."));
+await Bun.$`git push`.catch(() => console.log("Failed to push to git."));
 
 
 console.log("Finished downloading and parsing endpoints!")
