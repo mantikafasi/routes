@@ -5310,6 +5310,158 @@
                 "/content-inventory/users/@me/similar-games/:arg"
             ],
             "oldPaths": []
+        },
+        "DISCOVERY_RECOMMENDATIONS": {
+            "firstSeen": 1725189723661,
+            "args": [],
+            "paths": [
+                "/discovery/recommendations"
+            ],
+            "oldPaths": []
+        },
+        "DISCOVERY_GUILD_PROFILES": {
+            "firstSeen": 1725189723661,
+            "args": [],
+            "paths": [
+                "/discovery/guilds"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_TOP_GAMES": {
+            "firstSeen": 1725189723661,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/top-games"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_JOIN_REQUEST_ID": {
+            "firstSeen": 1725189723661,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/requests/id/:arg"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_MARKETING": {
+            "firstSeen": 1725189723661,
+            "args": [],
+            "paths": [
+                "/users/@me/collectibles-marketing"
+            ],
+            "oldPaths": []
+        },
+        "CHANNEL_BLOCKED_USER_WARNING_ACK": {
+            "firstSeen": 1725189723662,
+            "args": [],
+            "paths": [
+                "/channels/:arg/blocked-user-warning-dismissal"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_ITEMS_NEGATIVE": {
+            "firstSeen": 1725189723662,
+            "args": [],
+            "paths": [
+                "/users/@me/gravity-icymi-negative"
+            ],
+            "oldPaths": []
+        },
+        "CAPTCHA_TEST": {
+            "firstSeen": 1725189723662,
+            "args": [],
+            "paths": [
+                "/captcha/decider"
+            ],
+            "oldPaths": []
+        },
+        "USER_AFFINITIES_V2": {
+            "firstSeen": 1725189723662,
+            "args": [],
+            "paths": [
+                "/users/@me/affinities/v2/users"
+            ],
+            "oldPaths": []
+        },
+        "GET_SAVED_MESSAGES": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/users/@me/saved-messages"
+            ],
+            "oldPaths": []
+        },
+        "PUT_SAVED_MESSAGE": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/users/@me/saved-messages/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "DELETE_SAVED_MESSAGE": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/users/@me/saved-messages/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GET_REFERRAL_INCENTIVE_ELIGIBILITY": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/users/@me/referrals/incentive-eligibility"
+            ],
+            "oldPaths": []
+        },
+        "QUESTS_CLAIMED_QUESTS": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/quests/@me/claimed"
+            ],
+            "oldPaths": []
+        },
+        "CONTENT_INVENTORY_OUTBOX": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/content-inventory/users/:arg/outbox"
+            ],
+            "oldPaths": []
+        },
+        "DELETE_MY_CONTENT_INVENTORY_OUTBOX_ENTRY_HISTORY": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/content-inventory/users/@me/outbox/entries/id/:arg/history"
+            ],
+            "oldPaths": []
+        },
+        "CAMPAIGN_CONTEXT": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/campaign-context"
+            ],
+            "oldPaths": []
+        },
+        "VOICE_PUBLIC_KEYS": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/voice/public-keys"
+            ],
+            "oldPaths": []
+        },
+        "VOICE_MATCH_PUBLIC_KEY": {
+            "firstSeen": 1725189723663,
+            "args": [],
+            "paths": [
+                "/voice/:arg/match-public-key"
+            ],
+            "oldPaths": []
         }
     },
     "routes": {
@@ -6198,6 +6350,46 @@
             "args": [],
             "paths": [
                 "/quests/:arg"
+            ],
+            "oldPaths": []
+        },
+        "CONNECTIONS_SUCCESS": {
+            "firstSeen": 1725189723664,
+            "args": [],
+            "paths": [
+                "/connections/:arg/success"
+            ],
+            "oldPaths": []
+        },
+        "CONNECTIONS_ERROR": {
+            "firstSeen": 1725189723664,
+            "args": [],
+            "paths": [
+                "/connections/:arg/error"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_HOME": {
+            "firstSeen": 1725189723664,
+            "args": [],
+            "paths": [
+                "/discovery/quests"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_SERVERS": {
+            "firstSeen": 1725189723664,
+            "args": [],
+            "paths": [
+                "/discovery/servers"
+            ],
+            "oldPaths": []
+        },
+        "NITRO_HOME": {
+            "firstSeen": 1725189723664,
+            "args": [],
+            "paths": [
+                "/store"
             ],
             "oldPaths": []
         }
