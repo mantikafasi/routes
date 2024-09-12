@@ -2727,14 +2727,6 @@
             ],
             "oldPaths": []
         },
-        "EMIT_GOOGLE_PLAY_METRICS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/google-play/emit-google-play-metrics"
-            ],
-            "oldPaths": []
-        },
         "GOOGLE_PLAY_VALIDATE_PURCHASE": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -5452,6 +5444,22 @@
             "args": [],
             "paths": [
                 "/voice/:arg/match-public-key"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_MEMBER_JOIN_REQUEST_COOLDOWN": {
+            "firstSeen": 1726166412785,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/requests/@me/cooldown"
+            ],
+            "oldPaths": []
+        },
+        "CHANNEL_LINKED_LOBBY": {
+            "firstSeen": 1726166412786,
+            "args": [],
+            "paths": [
+                "/channels/:arg/linked-lobby"
             ],
             "oldPaths": []
         }
