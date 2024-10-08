@@ -56,14 +56,6 @@
             ],
             "oldPaths": []
         },
-        "BROADCAST_PRIVATE_CHANNEL": {
-            "firstSeen": 1720114556381,
-            "args": [],
-            "paths": [
-                "/users/@me/channels/broadcast"
-            ],
-            "oldPaths": []
-        },
         "DM_CHANNEL": {
             "firstSeen": 1720114556381,
             "args": [],
@@ -824,14 +816,6 @@
             ],
             "oldPaths": []
         },
-        "BROADCAST_CHANNELS": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/channels/broadcast-channels"
-            ],
-            "oldPaths": []
-        },
         "THREAD_MEMBER": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -1165,14 +1149,6 @@
             "args": [],
             "paths": [
                 "/channels/:arg/recipients/:arg"
-            ],
-            "oldPaths": []
-        },
-        "CHANNEL_RECIPIENT_CONSENT": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/channels/:arg/recipients/@me"
             ],
             "oldPaths": []
         },
@@ -3343,14 +3319,6 @@
             ],
             "oldPaths": []
         },
-        "USER_BROADCASTS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/users/broadcasts/bucket"
-            ],
-            "oldPaths": []
-        },
         "FUNIMATION_PROMOTION": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -3908,70 +3876,6 @@
             "args": [],
             "paths": [
                 "/guilds/automations/email-domain-lookup/verify-code"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_ELIGIBILITY": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/eligibility"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_REWARD_CODE": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/reward-code"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_CLAIM_REWARD_CODE": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/reward-code/claim"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_USER_STATUS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/@me"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_ENROLL_USER": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/enrolled-user"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_PLATFORM_AVAILABILITY": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/reward-code/availability"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_HEARTBEAT": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/quests/:arg/heartbeat"
-            ],
-            "oldPaths": []
-        },
-        "DROPS_PROGRESS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/drops/quests/:arg/progress"
             ],
             "oldPaths": []
         },
@@ -5462,6 +5366,94 @@
                 "/channels/:arg/linked-lobby"
             ],
             "oldPaths": []
+        },
+        "GUILD_DISCOVERY_SAVED_GUILDS": {
+            "firstSeen": 1728348081603,
+            "args": [],
+            "paths": [
+                "/users/@me/saved-guilds"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_DISCOVERY_SAVED_GUILDS_BULK": {
+            "firstSeen": 1728348081603,
+            "args": [],
+            "paths": [
+                "/users/@me/saved-guilds-bulk"
+            ],
+            "oldPaths": []
+        },
+        "CHANNEL_RECIPIENT_ME": {
+            "firstSeen": 1728348081604,
+            "args": [],
+            "paths": [
+                "/channels/:arg/recipients/@me"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_RECOMMENDED_GUILDS": {
+            "firstSeen": 1728348081604,
+            "args": [],
+            "paths": [
+                "/gravity-recommended-guilds"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_JOIN_GUILD": {
+            "firstSeen": 1728348081604,
+            "args": [],
+            "paths": [
+                "/guilds/gravity-join"
+            ],
+            "oldPaths": []
+        },
+        "CONNECTIONS_SESSION_HANDOFF": {
+            "firstSeen": 1728348081604,
+            "args": [],
+            "paths": [
+                "/connections/:arg/callback/session-handoff"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_INVOICE_BREAKDOWN": {
+            "firstSeen": 1728348081605,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/invoice/breakdown"
+            ],
+            "oldPaths": []
+        },
+        "STOREFRONT_PREMIUM_BUTTON": {
+            "firstSeen": 1728348081605,
+            "args": [],
+            "paths": [
+                "/applications/storefront/interactions/premium-button/:arg"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_FETCH_QUEST_TO_DELIVER": {
+            "firstSeen": 1728348081607,
+            "args": [],
+            "paths": [
+                "/quests/decision?placement=:arg"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_LEADERBOARD": {
+            "firstSeen": 1728348081607,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/leaderboards/:arg"
+            ],
+            "oldPaths": []
+        },
+        "UPDATE_MY_LOL_LEADERBOARD": {
+            "firstSeen": 1728348081607,
+            "args": [],
+            "paths": [
+                "/users/@me/update-league-of-legends-leaderboard"
+            ],
+            "oldPaths": []
         }
     },
     "routes": {
@@ -6382,6 +6374,22 @@
             "args": [],
             "paths": [
                 "/store"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS": {
+            "firstSeen": 1728348081607,
+            "args": [],
+            "paths": [
+                "/discovery/applications"
+            ],
+            "oldPaths": []
+        },
+        "DISCOVERY_GUILD_GAME_RESULTS": {
+            "firstSeen": 1728348081607,
+            "args": [],
+            "paths": [
+                "/discovery/game/:arg"
             ],
             "oldPaths": []
         }
