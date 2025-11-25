@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  discordroutes:
+    build: .
+    container_name: discordroutes
+    restart: unless-stopped
+    volumes:
+      - ./endpoints.json:/app/endpoints.json
+      - ./src/config.ts:/app/src/config.ts
+    environment:
+      - NODE_ENV=production

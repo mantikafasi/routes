@@ -1,29 +1,13 @@
-import { js_beautify } from "js-beautify";
 import { simple } from "acorn-walk";
 import { parse } from "acorn";
 
 const cleaner = async (code: string) => {
-    const beautified = js_beautify(code, {
-        "indent_size": 4,
-        "indent_char": " ",
-        "max_preserve_newlines": 5,
-        "preserve_newlines": true,
-        "keep_array_indentation": false,
-        "break_chained_methods": false,
-        "brace_style": "collapse",
-        "space_before_conditional": true,
-        "unescape_strings": false,
-        "jslint_happy": false,
-        "end_with_newline": false,
-        "wrap_line_length": 0,
-        "comma_first": false,
-        "e4x": false,
-        "indent_empty_lines": false
+
+    const parsed = parse(code, {
+        ecmaVersion: 2022,
     });
 
-    const parsed = parse(beautified, {
-        ecmaVersion: 2020,
-    });
+    console.log("Parsing finished, starting to find freeze calls...");
 
     const checkRoutes = [["BILLING_PREFIX", "/billing"], ["FRIENDS", "/channels/@me"], ["LOGIN", "/login"], ["ACTIVITIES", "/activities"], ["USERS", "/users"], ["ME", "/users/@me"]];
     const freezeCalls: {
@@ -69,7 +53,7 @@ const cleaner = async (code: string) => {
         end = frozen.end;
     }
 
-    const cleaned = beautified.slice(start, end);
+    const cleaned = code.slice(start, end);
 
     return cleaned;
 }

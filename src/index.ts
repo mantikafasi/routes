@@ -13,13 +13,7 @@ export default defineConfig({
     webhooks: [],
     githubToken: "",
     listenForChanges: true,
-    repo: {
-        owner: "Discord-Datamining",
-        name: "Discord-Datamining",
-        branch: "head/master",
-        postComments: false
-    },
-    downloadPath: "https://raw.githubusercontent.com/Darker-Ink/endpoint-downloader/master/currentRoutes.js"
+    downloadPath: "https://raw.githubusercontent.com/Discord-Datamining/Discord-Datamining/refs/heads/master/current.js"
 })`)
 
     process.exit(1);
@@ -38,7 +32,9 @@ interface EndpointType {
 
 const config = (await import(path.join(import.meta.dirname, "./config.ts"))).default as Config
 const downloaded = await downloader(config.config.downloadPath);
+console.log("Downloaded raw data, starting cleaning process...");
 const cleaned = await cleaner(downloaded);
+console.log("Cleaning process finished, starting to parse endpoints and routes...");
 const walked = await walk(cleaned);
 
 const currentEndpoints: {

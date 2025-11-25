@@ -1,5 +1,4 @@
-import { type Expression, parse } from "acorn";
-import { inspect } from "bun";
+import { parse } from "acorn";
 import handleProperty from "./handleProperty.ts";
 
 const walk = async (code: string) => {

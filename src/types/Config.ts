@@ -23,31 +23,6 @@ export interface Config {
      */
     githubToken: string;
 
-    /**
-     * The repo to target
-     */
-    repo: {
-        /**
-         * The repo owner
-         */
-        owner: string;
-
-        /**
-         * The repo name
-         */
-        name: string;
-
-        /**
-         * The branch (head/master for the master branch)
-         */
-        branch: string;
-
-        /**
-         * If the bot should post comments
-         */
-        postComments: boolean;
-    };
-
     webhooks: {
         url: string;
         send: {

@@ -44,9 +44,15 @@
             "firstSeen": 1720114556381,
             "args": [],
             "paths": [
-                "/guilds/:arg/profile/:arg"
+                "/guilds/:arg/profile"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/guilds/:arg/profile/:arg",
+                    "args": "",
+                    "changedAt": 1764072521732
+                }
+            ]
         },
         "USER_CHANNELS": {
             "firstSeen": 1720114556381,
@@ -480,22 +486,6 @@
             ],
             "oldPaths": []
         },
-        "DISCOVERY_ALL_GAMES": {
-            "firstSeen": 1720114556381,
-            "args": [],
-            "paths": [
-                "/discovery/games/all"
-            ],
-            "oldPaths": []
-        },
-        "GUILD_RECOMMENDATIONS": {
-            "firstSeen": 1720114556381,
-            "args": [],
-            "paths": [
-                "/guild-recommendations"
-            ],
-            "oldPaths": []
-        },
         "GUILD_EMOJIS": {
             "firstSeen": 1720114556381,
             "args": [],
@@ -533,14 +523,6 @@
             "args": [],
             "paths": [
                 "/guilds/:arg/analytics/engagement/overview"
-            ],
-            "oldPaths": []
-        },
-        "GUILD_ANALYTICS_MEMBER_INSIGHTS": {
-            "firstSeen": 1720114556381,
-            "args": [],
-            "paths": [
-                "/guilds/:arg/analytics/member-insights"
             ],
             "oldPaths": []
         },
@@ -864,14 +846,6 @@
             ],
             "oldPaths": []
         },
-        "VOICE_CHANNEL_NOTIFICATIONS": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/channels/:arg/voice-push"
-            ],
-            "oldPaths": []
-        },
         "PARTNER_REQUIREMENTS": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -1100,17 +1074,29 @@
             "firstSeen": 1720114556383,
             "args": [],
             "paths": [
-                "/channels/:arg/pins"
+                "/channels/:arg/messages/pins"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/channels/:arg/pins",
+                    "args": "",
+                    "changedAt": 1764072521731
+                }
+            ]
         },
         "PIN": {
             "firstSeen": 1720114556383,
             "args": [],
             "paths": [
-                "/channels/:arg/pins/:arg"
+                "/channels/:arg/messages/pins/:arg"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/channels/:arg/pins/:arg",
+                    "args": "",
+                    "changedAt": 1764072521731
+                }
+            ]
         },
         "INSTANT_INVITES": {
             "firstSeen": 1720114556383,
@@ -1368,14 +1354,6 @@
             ],
             "oldPaths": []
         },
-        "USERNAME_LOOKUP": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/users/username/:arg"
-            ],
-            "oldPaths": []
-        },
         "POMELO_SUGGESTIONS": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -1556,17 +1534,29 @@
             "firstSeen": 1720114556383,
             "args": [],
             "paths": [
-                "/users/@me/connections/:arg/:arg"
+                "/users/@me/connections/:arg/"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/users/@me/connections/:arg/:arg",
+                    "args": "",
+                    "changedAt": 1764072521731
+                }
+            ]
         },
         "CONNECTION_REFRESH": {
             "firstSeen": 1720114556383,
             "args": [],
             "paths": [
-                "/users/@me/connections/:arg/:arg/refresh"
+                "/users/@me/connections/:arg/refresh"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/users/@me/connections/:arg/:arg/refresh",
+                    "args": "",
+                    "changedAt": 1764072521731
+                }
+            ]
         },
         "CONNECTION_SYNC_CONTACTS": {
             "firstSeen": 1720114556383,
@@ -1580,9 +1570,15 @@
             "firstSeen": 1720114556383,
             "args": [],
             "paths": [
-                "/users/@me/connections/:arg/:arg/access-token"
+                "/users/@me/connections/:arg/access-token"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/users/@me/connections/:arg/:arg/access-token",
+                    "args": "",
+                    "changedAt": 1764072521731
+                }
+            ]
         },
         "CONNECTIONS_LINK_DISPATCH_AUTH_CALLBACK": {
             "firstSeen": 1720114556383,
@@ -1991,14 +1987,6 @@
             ],
             "oldPaths": []
         },
-        "APPLICATIONS_DETECTABLE": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/applications/detectable"
-            ],
-            "oldPaths": []
-        },
         "APPLICATIONS_GAMES_SUPPLEMENTAL": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -2327,14 +2315,6 @@
             ],
             "oldPaths": []
         },
-        "SEARCH_DMS": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/users/@me/messages/search"
-            ],
-            "oldPaths": []
-        },
         "SEARCH_TABS_DMS": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -2495,14 +2475,6 @@
             ],
             "oldPaths": []
         },
-        "BILLING_PAYMENTS_REFUND": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/users/@me/billing/payments/:arg/refund"
-            ],
-            "oldPaths": []
-        },
         "BILLING_INVOICE_PDF": {
             "firstSeen": 1720114556383,
             "args": [],
@@ -2524,14 +2496,6 @@
             "args": [],
             "paths": [
                 "/users/@me/billing/stripe/payment-intents/:arg"
-            ],
-            "oldPaths": []
-        },
-        "BILLING_STANDALONE_CHECKOUT_PAGE": {
-            "firstSeen": 1720114556383,
-            "args": [],
-            "paths": [
-                "/billing/premium/subscribe?plan_id=:arg&gift=:arg&load_id=:arg"
             ],
             "oldPaths": []
         },
@@ -2716,22 +2680,6 @@
             "args": [],
             "paths": [
                 "/users/@me/agreements"
-            ],
-            "oldPaths": []
-        },
-        "USER_ACHIEVEMENTS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/users/@me/applications/:arg/achievements"
-            ],
-            "oldPaths": []
-        },
-        "USER_ACHIEVEMENTS_FOR_USER": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/users/:arg/applications/:arg/achievements/:arg"
             ],
             "oldPaths": []
         },
@@ -3031,14 +2979,6 @@
             ],
             "oldPaths": []
         },
-        "HYPESQUAD_ONLINE": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/hypesquad/online"
-            ],
-            "oldPaths": []
-        },
         "APPLICATION_STORAGE": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -3231,14 +3171,6 @@
             ],
             "oldPaths": []
         },
-        "GUILD_DISCOVERY_VALID_TERM": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/discovery/valid-term"
-            ],
-            "oldPaths": []
-        },
         "GUILD_DISCOVERY_SLUG": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -3319,14 +3251,6 @@
             ],
             "oldPaths": []
         },
-        "FUNIMATION_PROMOTION": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/promotions/funimation"
-            ],
-            "oldPaths": []
-        },
         "PARTNERS_CONNECTIONS": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -3356,14 +3280,6 @@
             "args": [],
             "paths": [
                 "/sticker-packs/directory-v2/:arg"
-            ],
-            "oldPaths": []
-        },
-        "USER_STICKER_PACKS": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/users/@me/sticker-packs"
             ],
             "oldPaths": []
         },
@@ -3887,14 +3803,6 @@
             ],
             "oldPaths": []
         },
-        "OUTBOUND_PROMOTIONS_PREVIEW": {
-            "firstSeen": 1720114556384,
-            "args": [],
-            "paths": [
-                "/outbound-promotions/preview"
-            ],
-            "oldPaths": []
-        },
         "BOGO_PROMOTIONS": {
             "firstSeen": 1720114556384,
             "args": [],
@@ -4156,54 +4064,6 @@
             "args": [],
             "paths": [
                 "/guilds/:arg/products/listings/:arg/attachments/:arg/download"
-            ],
-            "oldPaths": []
-        },
-        "GUILD_CONVERT_TO_CLAN": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/clan/:arg"
-            ],
-            "oldPaths": []
-        },
-        "GUILD_CLAN_DISCOVERY_INFO": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/discovery/:arg/clan"
-            ],
-            "oldPaths": []
-        },
-        "USER_SET_CLAN_IDENTITY": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/users/@me/clan"
-            ],
-            "oldPaths": []
-        },
-        "CLAN_SETTINGS": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/clan/:arg/settings"
-            ],
-            "oldPaths": []
-        },
-        "DISABLE_CLAN": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/clan/:arg/disable"
-            ],
-            "oldPaths": []
-        },
-        "JOIN_WUMPUS_FEEDBACK_SQUAD": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/guilds/:arg/join-wfs-server"
             ],
             "oldPaths": []
         },
@@ -4671,14 +4531,6 @@
             ],
             "oldPaths": []
         },
-        "USER_PREMIUM_LIKELIHOOD": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/users/@me/billing/premium-likelihood"
-            ],
-            "oldPaths": []
-        },
         "BURST_CREDIT_BALANCE": {
             "firstSeen": 1720114556385,
             "args": [],
@@ -4700,14 +4552,6 @@
             "args": [],
             "paths": [
                 "/users/@me/referrals/eligible-users"
-            ],
-            "oldPaths": []
-        },
-        "CREATE_REFERRAL_PREVIEW": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/users/@me/referrals/:arg/preview"
             ],
             "oldPaths": []
         },
@@ -4799,14 +4643,6 @@
             ],
             "oldPaths": []
         },
-        "PRIVATE_CHANNEL_INTEGRATION_CONSENT": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/channels/:arg/integrations/consent"
-            ],
-            "oldPaths": []
-        },
         "FINISH_MFA_CHECK": {
             "firstSeen": 1720114556385,
             "args": [],
@@ -4820,22 +4656,6 @@
             "args": [],
             "paths": [
                 "/user-offers/create/:arg/:arg"
-            ],
-            "oldPaths": []
-        },
-        "DELETE_USER_OFFER": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/user-offers/:arg/:arg"
-            ],
-            "oldPaths": []
-        },
-        "UNACK_USER_OFFER": {
-            "firstSeen": 1720114556385,
-            "args": [],
-            "paths": [
-                "/user-offers/:arg/:arg/unack"
             ],
             "oldPaths": []
         },
@@ -5199,22 +5019,6 @@
             ],
             "oldPaths": []
         },
-        "DISCOVERY_RECOMMENDATIONS": {
-            "firstSeen": 1725190417269,
-            "args": [],
-            "paths": [
-                "/discovery/recommendations"
-            ],
-            "oldPaths": []
-        },
-        "DISCOVERY_GUILD_PROFILES": {
-            "firstSeen": 1725190417269,
-            "args": [],
-            "paths": [
-                "/discovery/guilds"
-            ],
-            "oldPaths": []
-        },
         "GUILD_TOP_GAMES": {
             "firstSeen": 1725190417269,
             "args": [],
@@ -5244,14 +5048,6 @@
             "args": [],
             "paths": [
                 "/channels/:arg/blocked-user-warning-dismissal"
-            ],
-            "oldPaths": []
-        },
-        "GRAVITY_ITEMS_NEGATIVE": {
-            "firstSeen": 1725190417270,
-            "args": [],
-            "paths": [
-                "/users/@me/gravity-icymi-negative"
             ],
             "oldPaths": []
         },
@@ -5292,14 +5088,6 @@
             "args": [],
             "paths": [
                 "/users/@me/saved-messages/:arg/:arg"
-            ],
-            "oldPaths": []
-        },
-        "GET_REFERRAL_INCENTIVE_ELIGIBILITY": {
-            "firstSeen": 1725190417271,
-            "args": [],
-            "paths": [
-                "/users/@me/referrals/incentive-eligibility"
             ],
             "oldPaths": []
         },
@@ -5367,22 +5155,6 @@
             ],
             "oldPaths": []
         },
-        "GUILD_DISCOVERY_SAVED_GUILDS": {
-            "firstSeen": 1728348081603,
-            "args": [],
-            "paths": [
-                "/users/@me/saved-guilds"
-            ],
-            "oldPaths": []
-        },
-        "GUILD_DISCOVERY_SAVED_GUILDS_BULK": {
-            "firstSeen": 1728348081603,
-            "args": [],
-            "paths": [
-                "/users/@me/saved-guilds-bulk"
-            ],
-            "oldPaths": []
-        },
         "CHANNEL_RECIPIENT_ME": {
             "firstSeen": 1728348081604,
             "args": [],
@@ -5435,23 +5207,1053 @@
             "firstSeen": 1728348081607,
             "args": [],
             "paths": [
-                "/quests/decision?placement=:arg"
+                "/quests/decision?placement=:arg&client_heartbeat_session_id=:arg&client_ad_session_id=:arg"
+            ],
+            "oldPaths": [
+                {
+                    "paths": "/quests/decision?placement=:arg",
+                    "args": "",
+                    "changedAt": 1764072521732
+                }
+            ]
+        },
+        "USER_GAME_RELATIONSHIP": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/users/@me/game-relationships/:arg/:arg"
             ],
             "oldPaths": []
         },
-        "GUILD_LEADERBOARD": {
-            "firstSeen": 1728348081607,
+        "USER_PROFILE_WIDGETS": {
+            "firstSeen": 1764072521707,
             "args": [],
             "paths": [
-                "/guilds/:arg/leaderboards/:arg"
+                "/users/@me/widgets"
             ],
             "oldPaths": []
         },
-        "UPDATE_MY_LOL_LEADERBOARD": {
-            "firstSeen": 1728348081607,
+        "USER_PROFILE_SUGGESTED_GAMES": {
+            "firstSeen": 1764072521707,
             "args": [],
             "paths": [
-                "/users/@me/update-league-of-legends-leaderboard"
+                "/users/@me/widgets/suggested-games"
+            ],
+            "oldPaths": []
+        },
+        "USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/users/@me/widgets/application-widget-application-ids"
+            ],
+            "oldPaths": []
+        },
+        "USER_GUILD_PROFILE": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/profile/:arg"
+            ],
+            "oldPaths": []
+        },
+        "USER_WARP_LICENSE": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/users/@me/warp/license"
+            ],
+            "oldPaths": []
+        },
+        "USER_WISHLIST": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/wishlists/:arg"
+            ],
+            "oldPaths": []
+        },
+        "USER_WISHLIST_PATCH": {
+            "firstSeen": 1764072521707,
+            "args": [],
+            "paths": [
+                "/users/@me/wishlists/:arg"
+            ],
+            "oldPaths": []
+        },
+        "USER_WISHLIST_ITEMS": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/@me/wishlist/items"
+            ],
+            "oldPaths": []
+        },
+        "USER_WISHLIST_ITEM": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/@me/wishlists/:arg/items/:arg"
+            ],
+            "oldPaths": []
+        },
+        "USER_APPLICATION_IDENTITIES": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/:arg/application-identities"
+            ],
+            "oldPaths": []
+        },
+        "USER_ACTIVITY_SUBSCRIBE": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/@me/activities/subscribe"
+            ],
+            "oldPaths": []
+        },
+        "PLATFORM_APPLICATION": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/platform-application"
+            ],
+            "oldPaths": []
+        },
+        "ROBLOX_APPLICATIONS_SUPPLEMENTAL_DATA": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/roblox-applications-supplemental-data"
+            ],
+            "oldPaths": []
+        },
+        "GAME_NOTIFICATION_SETTINGS": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/@me/notification-settings/muted-games"
+            ],
+            "oldPaths": []
+        },
+        "GAME_NOTIFICATION_SETTING_UPDATE": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/users/@me/notification-settings/muted-games/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_ONBOARDING_ALLOWED_APPLICATIONS": {
+            "firstSeen": 1764072521708,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/onboarding/allowed-applications"
+            ],
+            "oldPaths": []
+        },
+        "ARCHIVED_AVATAR": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/avatars/:arg/archived/:arg/:arg.:arg"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_CATEGORIES_V2": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/collectibles-categories/v2"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_SEARCH": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/shop/search"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_CLAIM_CATEGORY_REWARD": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/claim-reward-category-product"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_VALID_GIFT_RECIPIENTS_BATCH": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/valid-collectibles-gift-recipients-batch"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_SHOP": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/collectibles-shop"
+            ],
+            "oldPaths": []
+        },
+        "CONSUMABLE_FETCH_PRICE": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/store/consumable/pricing/:arg"
+            ],
+            "oldPaths": []
+        },
+        "CONSUME_HD_STREAMING_POTION": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/consumable/hd-streaming"
+            ],
+            "oldPaths": []
+        },
+        "FETCH_HD_STREAMING_ENTITLEMENT": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/consumable/hd-streaming"
+            ],
+            "oldPaths": []
+        },
+        "CONSUME_MESSAGE_CONFETTI_POTION": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/consumable/confetti"
+            ],
+            "oldPaths": []
+        },
+        "FETCH_MESSAGE_CONFETTI_ENTITLEMENT": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/consumable/confetti"
+            ],
+            "oldPaths": []
+        },
+        "MESSAGES_ANNOUNCEMENT": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/channels/:arg/messages/announcement"
+            ],
+            "oldPaths": []
+        },
+        "AI_TITLE": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/ai/title"
+            ],
+            "oldPaths": []
+        },
+        "AI_TRANSLATE": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/ai/translate"
+            ],
+            "oldPaths": []
+        },
+        "AI_FIX_GRAMMAR": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/ai/fix-grammar"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_ATTACHMENTS": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/gravity-attachments"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_ATTACHMENTS_UPLOAD": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/gravity-attachments-upload"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_ITEMS_DEHYDRATED_LEGACY": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/gravity-icymi-legacy"
+            ],
+            "oldPaths": []
+        },
+        "GRAVITY_TOPIC_GUILDS": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/gravity-topic-guilds"
+            ],
+            "oldPaths": []
+        },
+        "RECENT_AVATARS": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/avatars"
+            ],
+            "oldPaths": []
+        },
+        "USERS_ME_CUSTOM_THEMES": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/users/@me/custom-themes"
+            ],
+            "oldPaths": []
+        },
+        "AGE_ASSURANCE_TEST": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/age-verification/test"
+            ],
+            "oldPaths": []
+        },
+        "VERIFY_AGE": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/age-verification/verify"
+            ],
+            "oldPaths": []
+        },
+        "AGE_VERIFICATION_METHODS": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/age-verification/methods"
+            ],
+            "oldPaths": []
+        },
+        "LOGIN_GENERATED_USER": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/auth/login/generated-user/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GENERATED_POOLS_FOR_CURRENT_USER": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/generated-pools/@me"
+            ],
+            "oldPaths": []
+        },
+        "GENERATED_POOL_BY_ID": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/generated-pools/:arg"
+            ],
+            "oldPaths": []
+        },
+        "ONE_TIME_LOGIN": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/auth/one-time-login"
+            ],
+            "oldPaths": []
+        },
+        "SCORE_PASSWORD": {
+            "firstSeen": 1764072521709,
+            "args": [],
+            "paths": [
+                "/auth/password/validate"
+            ],
+            "oldPaths": []
+        },
+        "GAMES_DETECTABLE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/games/detectable"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_POWERUPS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/powerups"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_POWERUP_TOGGLE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/skus/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_POWERUP_UPDATE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/entitlements/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GAME_SERVERS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/game-servers"
+            ],
+            "oldPaths": []
+        },
+        "GAME_SERVER_REGIONS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/game-server-regions"
+            ],
+            "oldPaths": []
+        },
+        "GAME_SERVER_WAKE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/game-servers/:arg/wake"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_STRIPE_SETUP_INTENT_SECRET_FOR_PAYMENT_ELEMENTS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/stripe/payment-elements/setup-intents"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_REWARDS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/rewards"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_PROMOTION_REWARD": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/promotion-reward"
+            ],
+            "oldPaths": []
+        },
+        "Billing_SUBSCRIPTION_REWARD_ELIGIBILITY": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/reward-eligibility"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_ELIGIBLE_USERS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/eligible-users"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_INVITES": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/invites"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_INVITE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/members/:arg/invite"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_REMOVE_USER": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/members/:arg"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_SUBSCRIPTION_MEMBERS": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/members"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_LOCATION": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/location-info"
+            ],
+            "oldPaths": []
+        },
+        "PREMIUM_GROUP_MEMBERSHIP": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/premium-group/membership"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTION_PUBLISHED_LISTINGS_SKU": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/storefront/collections/:arg"
+            ],
+            "oldPaths": []
+        },
+        "PRODUCT_FOR_SKU": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/storefront/products/sku/:arg"
+            ],
+            "oldPaths": []
+        },
+        "SOCIAL_LAYER_APPLICATION_STOREFRONT": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/partner-sdk/guilds/:arg/application-storefront"
+            ],
+            "oldPaths": []
+        },
+        "SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/partner-sdk/guilds/:arg/application-storefront/skus/:arg"
+            ],
+            "oldPaths": []
+        },
+        "ORDER_CREATE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/billing/orders"
+            ],
+            "oldPaths": []
+        },
+        "ORDER_UPDATE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/billing/orders/:arg"
+            ],
+            "oldPaths": []
+        },
+        "ORDER_SIGN": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/billing/orders/:arg/sign"
+            ],
+            "oldPaths": []
+        },
+        "APPLICATION_MANAGED_ACTIVITY_LINK": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/applications/:arg/managed-links/:arg"
+            ],
+            "oldPaths": []
+        },
+        "APPLICATION_QUICK_ACTIVITY_LINK": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/applications/:arg/quick-links/:arg"
+            ],
+            "oldPaths": []
+        },
+        "USER_MEANINGFULLY_ONLINE": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/meaningfully-online"
+            ],
+            "oldPaths": []
+        },
+        "REACTIVATION_OFFER_REDEEM": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/users/@me/billing/subscriptions/:arg/reactivation-offers/:arg/redeem"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_DISCOVERY_SEARCH": {
+            "firstSeen": 1764072521710,
+            "args": [],
+            "paths": [
+                "/discoverable-guilds/search"
+            ],
+            "oldPaths": []
+        },
+        "ACTIVITY_JOIN_INSTANCE": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/activities/applications/:arg/activity-instances/:arg/join"
+            ],
+            "oldPaths": []
+        },
+        "ACTIVITIES_DISCORD_CONFIG": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/activities/discord-config/:arg"
+            ],
+            "oldPaths": []
+        },
+        "APPLICATION_PROXY_TICKET": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/applications/:arg/proxy-tickets"
+            ],
+            "oldPaths": []
+        },
+        "SUBMIT_MODERATOR_MESSAGE_REPORT": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/channels/:arg/:arg/mod-report"
+            ],
+            "oldPaths": []
+        },
+        "MODERATOR_REPORT_CLOSE": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/mod-report/:arg/close"
+            ],
+            "oldPaths": []
+        },
+        "REPORT_TO_MOD_REOPEN": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/mod-report/:arg/reopen"
+            ],
+            "oldPaths": []
+        },
+        "DSA_CAPABILITIES": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/reporting/unauthenticated/capabilities"
+            ],
+            "oldPaths": []
+        },
+        "EMBEDDED_SURVEY": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/users/@me/embedded-survey/:arg"
+            ],
+            "oldPaths": []
+        },
+        "EMBEDDED_SURVEY_RESPONSE": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/users/@me/embedded-surveys/:arg/responses"
+            ],
+            "oldPaths": []
+        },
+        "EMBEDDED_SURVEY_ACTION": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/users/@me/embedded-survey/action"
+            ],
+            "oldPaths": []
+        },
+        "PROMOTIONS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/promotions"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_PROFILE_VISIBILITY": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/profile/visibility"
+            ],
+            "oldPaths": []
+        },
+        "USER_SET_GUILD_IDENTITY": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/users/@me/clan"
+            ],
+            "oldPaths": []
+        },
+        "SOUNDBOARD_SOUND_GUILD_DATA": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/soundboard-sounds/:arg/guild/:arg"
+            ],
+            "oldPaths": []
+        },
+        "TOP_SOUNDS_FOR_GUILDS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/users/@me/top-sounds-for-guilds"
+            ],
+            "oldPaths": []
+        },
+        "FAMILY_CENTER_TEEN_SETTINGS_AND_CONSENTS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/family-center/:arg/settings-and-consents"
+            ],
+            "oldPaths": []
+        },
+        "FAMILY_CENTER_TEEN_SETTINGS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/family-center/:arg/settings-proto"
+            ],
+            "oldPaths": []
+        },
+        "FAMILY_CENTER_TEEN_CONSENTS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/family-center/:arg/consents"
+            ],
+            "oldPaths": []
+        },
+        "FAMILY_CENTER_SHARE_IAR_WITH_PARENTS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/family-center/share-iar-with-parents"
+            ],
+            "oldPaths": []
+        },
+        "CREATE_REVERSE_TRIAL": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/user-offers/reverse-trial"
+            ],
+            "oldPaths": []
+        },
+        "UPDATE_USER_OFFER": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/user-offers/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/safety-hub/suspended/request-verification"
+            ],
+            "oldPaths": []
+        },
+        "SAFETY_HUB_CHECK_SUSPENDED_AGE_VERIFICATION": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/safety-hub/suspended/check-verification"
+            ],
+            "oldPaths": []
+        },
+        "SAFETY_HUB_GET_SUSPENDED_AGE_VERIFICATION_METHODS": {
+            "firstSeen": 1764072521711,
+            "args": [],
+            "paths": [
+                "/age-verification/suspended/methods"
+            ],
+            "oldPaths": []
+        },
+        "MARKETING_CAMPAIGN_ELIGIBILITY": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/premium-marketing/@me/campaigns/:arg/eligibility"
+            ],
+            "oldPaths": []
+        },
+        "QUEST": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/quests/:arg"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_PREVIEW": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/quests/:arg/preview"
+            ],
+            "oldPaths": []
+        },
+        "QUESTS_VIDEO_PROGRESS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/quests/:arg/video-progress"
+            ],
+            "oldPaths": []
+        },
+        "QUESTS_RESET_RECENT_QUEST_COMPLETIONS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/quests/reset-recent-quest-completions"
+            ],
+            "oldPaths": []
+        },
+        "ACCOUNT_REVERT": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/auth/revert"
+            ],
+            "oldPaths": []
+        },
+        "VIRTUAL_CURRENCY_SKU_REDEEM": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/virtual-currency/skus/:arg/redeem"
+            ],
+            "oldPaths": []
+        },
+        "VIRTUAL_CURRENCY_USER_BALANCE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/users/@me/virtual-currency/balance"
+            ],
+            "oldPaths": []
+        },
+        "IGNORE_USER": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/users/@me/relationships/:arg/ignore"
+            ],
+            "oldPaths": []
+        },
+        "SCHEDULED_MESSAGES": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/users/@me/scheduled-messages"
+            ],
+            "oldPaths": []
+        },
+        "SCHEDULED_MESSAGE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/users/@me/scheduled-messages/:arg"
+            ],
+            "oldPaths": []
+        },
+        "HOLIDAY_REDEEM_PRIZE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/holidays/redeem-prize"
+            ],
+            "oldPaths": []
+        },
+        "APPLIED_BOOST_MODIFY_END_DATE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/debug/applied-boosts/ends-at"
+            ],
+            "oldPaths": []
+        },
+        "SEND_POWERUPS_SYSTEM_MESSAGE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/powerups-system-message"
+            ],
+            "oldPaths": []
+        },
+        "SAFETY_FLOWS_TASK": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/safety-flows/task"
+            ],
+            "oldPaths": []
+        },
+        "SAFETY_FLOWS_RESEND_VERIFICATION_CODE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/safety-flows/resend/email/reverification/pincode"
+            ],
+            "oldPaths": []
+        },
+        "VOICE_FILTERS_CATALOG": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/voice-filters/catalog"
+            ],
+            "oldPaths": []
+        },
+        "APEX_EXPERIMENTS_METADATA": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/apex/experiments/metadata"
+            ],
+            "oldPaths": []
+        },
+        "APEX_EXPERIMENTS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/apex/experiments"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE_GUILDS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/conference-mode/guilds"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE_VOICE_CHANNELS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/conference-mode/:arg/channels"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE_VOICE_CHANNEL": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/conference-mode/channels/:arg"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE_VOICE_CHANNEL_USERS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/conference-mode/channels/:arg/users"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_MIGRATE_PIN_PERMISSION": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/migrate-pin-permission"
+            ],
+            "oldPaths": []
+        },
+        "GET_APPLICATION_TOKENS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/oauth2/applications/:arg/tokens"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_MIGRATE_SLOWMODE_PERMISSION": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/guilds/:arg/migrate-bypass-slowmode-permission"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_PLACEMENT": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/quests/placement-alpha"
+            ],
+            "oldPaths": []
+        },
+        "GAME_UPDATE": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/game-updates/:arg:arg/:arg:arg"
+            ],
+            "oldPaths": []
+        },
+        "AI_SUMMARIZE_THREAD": {
+            "firstSeen": 1764072750143,
+            "args": [],
+            "paths": [
+                "/ai/summarize-thread/:arg"
+            ],
+            "oldPaths": []
+        },
+        "RECENT_AVATARS_DELETE": {
+            "firstSeen": 1764075282126,
+            "args": [],
+            "paths": [
+                "/users/@me/avatars/:arg"
             ],
             "oldPaths": []
         }
@@ -6085,9 +6887,15 @@
             "firstSeen": 1720114556387,
             "args": [],
             "paths": [
-                "/member-verification/:arg/:arg"
+                "/member-verification/:arg"
             ],
-            "oldPaths": []
+            "oldPaths": [
+                {
+                    "paths": "/member-verification/:arg/:arg",
+                    "args": "",
+                    "changedAt": 1764072521732
+                }
+            ]
         },
         "GUILD_MEMBER_VERIFICATION_FOR_HUB": {
             "firstSeen": 1720114556387,
@@ -6281,14 +7089,6 @@
             ],
             "oldPaths": []
         },
-        "COLLECTIBLES_SHOP_FULLSCREEN": {
-            "firstSeen": 1720114556387,
-            "args": [],
-            "paths": [
-                "/shop/fullscreen"
-            ],
-            "oldPaths": []
-        },
         "COLLECTIBLES_SHOP_PRODUCT_DETAIL": {
             "firstSeen": 1720114556387,
             "args": [],
@@ -6385,11 +7185,211 @@
             ],
             "oldPaths": []
         },
-        "DISCOVERY_GUILD_GAME_RESULTS": {
-            "firstSeen": 1728348081607,
+        "APP_WITH_GIFT_CODE": {
+            "firstSeen": 1764072521712,
             "args": [],
             "paths": [
-                "/discovery/game/:arg"
+                "/app/gifts/:arg"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_PROMOTION_REDEMPTION_GENERIC": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/billing/promotions"
+            ],
+            "oldPaths": []
+        },
+        "ME_ACTIVITY": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/channels/@me/activity"
+            ],
+            "oldPaths": []
+        },
+        "ME_DMS": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/channels/@me/dms"
+            ],
+            "oldPaths": []
+        },
+        "LOGIN_ONE_TIME": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/login/one-time"
+            ],
+            "oldPaths": []
+        },
+        "ACTIVATE_HANDOFF": {
+            "firstSeen": 1764072521712,
+            "args": [],
+            "paths": [
+                "/activate/handoff"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_HOME_V2": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/quest-home"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS_CATEGORY": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/discovery/applications/categories/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS_PROFILE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/discovery/applications/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS_PROFILE_SECTION": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/discovery/applications/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS_PROFILE_STORE_SKU": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/discovery/applications/:arg/:arg:arg:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "GLOBAL_DISCOVERY_APPS_SEARCH": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/discovery/applications/search"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/billing/premium/manage?deep_link_type=:arg&load_id=:arg"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_STANDALONE_CHECKOUT_PAGE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/billing/premium/subscribe?plan_id=:arg&gift=:arg&load_id=:arg&payment_method_type=:arg&deep_link_type=:arg&use_preset_offer=:arg"
+            ],
+            "oldPaths": []
+        },
+        "BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/billing/guild-subscriptions/purchase?guild_id=:arg&deep_link_type=:arg&load_id=:arg"
+            ],
+            "oldPaths": []
+        },
+        "GUILD_FEATURE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/feature/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "CHANNELS_GAME_SHOP": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/channels/:arg/game-shop"
+            ],
+            "oldPaths": []
+        },
+        "GAME_SHOP": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/game-shop/:arg"
+            ],
+            "oldPaths": []
+        },
+        "COLLECTIBLES_SHOP_WITH_TAB": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/shop?tab=:arg"
+            ],
+            "oldPaths": []
+        },
+        "ACCOUNT_REVERT": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/wasntme/:arg"
+            ],
+            "oldPaths": []
+        },
+        "POWERUP_STORE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/channels/:arg/boosts"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/conference-mode"
+            ],
+            "oldPaths": []
+        },
+        "CONFERENCE_MODE_VOICE": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/conference-mode/voice/:arg/:arg"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_PREVIEW": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/quest-preview/:arg"
+            ],
+            "oldPaths": []
+        },
+        "QUEST_PREVIEW_TOOL_2": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/quest-home?tab=preview_tool&quest_id=:arg"
+            ],
+            "oldPaths": []
+        },
+        "ICYMI": {
+            "firstSeen": 1764072521713,
+            "args": [],
+            "paths": [
+                "/icymi"
             ],
             "oldPaths": []
         }
